@@ -14,7 +14,7 @@
         <h1>Minha Agenda</h1>
       </div>
     </div>
-    <div class="row my-2 mx-1 py-2 border rounded d-none">
+    <div id="novoEvento" class="row my-2 mx-1 py-2 border rounded d-none">
       <div class="col-12">
         <form action="">
           <div class="row">
@@ -31,7 +31,7 @@
               <label for="dataEvento" class="form-label">Data do Evento</label>
               <input type="datetime-local" name="dataEvento" id="dataEvento" class="form-control">
             </div>
-            <div class="col-6"><button type="button" class="btn btn-danger w-100">Cancelar</button></div>
+            <div class="col-6"><button type="button" class="btn btn-danger w-100" onclick="cancelarEvento()">Cancelar</button></div>
             <div class="col-6"><button type="submit" class="btn btn-primary w-100">Salvar</button></div>
           </div>
         </form>

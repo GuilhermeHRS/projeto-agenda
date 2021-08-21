@@ -1,3 +1,9 @@
 function novoEvento() {
-    console.log('Função Novo Evento');
+    var novoEvento = document.getElementById('novoEvento');
+    novoEvento.classList.remove('d-none');
+}
+
+function cancelarEvento() {
+    var novoEvento = document.getElementById('novoEvento');
+    novoEvento.classList.add('d-none');
 }
